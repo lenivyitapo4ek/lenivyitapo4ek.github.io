@@ -19,6 +19,14 @@
 
         var options = {
           title: 'My Daily Activities'
+          slices: {
+            0: { color: 'yellow' },
+            1: { color: 'transparent' }
+            2: { color: 'yellow' },
+            3: { color: 'transparent' }
+            4: { color: 'yellow' },
+            5: { color: 'transparent' }
+          }
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -44,10 +52,6 @@
         var options = {
           title: 'My Daily Activities',
           is3D: true,
-          slices: {
-            0: { color: 'yellow' },
-            1: { color: 'transparent' }
-          }
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
